@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
     formats: ['image/webp', 'image/avif'],
@@ -8,6 +7,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizeCss: true,
   },
-};
+}
 
-export default nextConfig;
+module.exports = nextConfig
