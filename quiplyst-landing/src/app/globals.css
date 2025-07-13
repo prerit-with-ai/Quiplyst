@@ -109,3 +109,16 @@ body {
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
 .delay-500 { animation-delay: 0.5s; }
+
+/* Lottie animation styles */
+.mercury-lottie {
+  filter: drop-shadow(0 4px 8px rgba(23, 195, 163, 0.3));
+}
+
+/* Line clamp utility for testimonials */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
